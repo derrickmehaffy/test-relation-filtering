@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publication_statuses",
+  "info": {
+    "name": "Publication Status",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "filter1",
+        "filter2",
+        "filter3",
+        "review",
+        "approved",
+        "scheduled",
+        "published"
+      ]
+    }
+  }
+}

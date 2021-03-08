@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "filter1": {
+      "type": "boolean"
+    },
+    "filter2": {
+      "type": "boolean"
+    },
+    "filter3": {
+      "type": "boolean"
+    },
+    "publication_status": {
+      "model": "publication-status"
+    }
+  }
+}
